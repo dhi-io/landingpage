@@ -1,0 +1,36 @@
+{
+  "name": "dhi-landing",
+  "version": "0.1.0",
+  "description": "Yet another amazing AngularJS app",
+  "keywords": [
+    "angular"
+  ],
+  "homepage": "https://github.com/ganarajpr/dhi-landing",
+  "bugs": "https://github.com/ganarajpr/dhi-landing/issues",
+  "author": {
+    "name": "Ganaraj P R",
+    "email": "",
+    "url": "https://github.com/ganarajpr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ganarajpr/dhi-landing.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "dependencies": {
+    "bootstrap": "3.2.0",
+    "font-awesome": "4.1.0",
+    "angular-strap": "2.0.3",
+    "angular-animate": "^1.3.0-beta.16",
+    "angular-route": "^1.3.0-beta.16",
+    "angular": "^1.3.0-beta.16"
+  },
+  "resolutions": {
+    "bootstrap": "3.2.0",
+    "angular": "^1.3.0-beta.16"
+  }
+}
