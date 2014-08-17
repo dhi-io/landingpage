@@ -30,6 +30,14 @@ body {
 
 }
 
+body { 
+  background: url(../images/bgcol.JPG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 h1.jumboview{
     font-size: 100px;
@@ -142,6 +150,10 @@ body {
   font-weight: bold;
 }
 
+.color-grey{
+  color: #E0E0E0;
+}
+
 
 /*
  * Footer
@@ -153,8 +165,8 @@ body {
 }
 
 #mc_embed_signup form#mc-embedded-subscribe-form{
-    font-size: 20px;
-    color: #333;
+    font-size: 30px;
+    color: #fff;
     text-align: center;
 }
 
@@ -183,7 +195,12 @@ body {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
+    .header-landing{
+        margin-top: 15px;
+    }
 }
+
+
 
 @media (min-width: 992px) {
   .masthead,
@@ -192,5 +209,85 @@ body {
     width: 900px;
   }
 
+    .header-landing{
+        margin-top: 20px;
+    }
 
+
+}
+
+.main-point{
+    margin-bottom: 30px;
+}
+
+.gap{
+    margin-bottom: 30px;
+}
+
+.explanation{
+    margin-top: 50px;
+    text-align: left;
+}
+
+.subscribe{
+    margin-top : 50px;
+    border: 1px solid #cccccc;
+    padding: 20px;
+}
+
+
+.footer{
+    position: fixed;
+    bottom: 10px;
+    height: 100px;
+}
+
+#mc_embed_signup {
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+}
+
+#mc_embed_signup .email_signup{
+    padding: 5px 10px;
+    color: #333;
+}
+
+/*
+#mc_embed_signup .email_signup {
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    display: inline-block;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 15px;
+
+}
+
+#mc_embed_signup .email_signup:focus {
+    border-bottom: 2px solid #ffffff;
+
+}*/
+
+#mc_embed_signup input.button {
+    display: inline-block;
+    padding: 6px 0px;
+    height: 48px;
+    font-size: 20px;
+    background-color: #D41E1E;
+}
+
+::-webkit-input-placeholder {
+    color: #cccccc;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #cccccc;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #cccccc;
+}
+
+:-ms-input-placeholder {
+    color: #cccccc;
 }

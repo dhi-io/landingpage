@@ -30,11 +30,12 @@
   <link rel="author" href="https://github.com/ganarajpr"> 
   <link rel="icon" href="http://angularjs.org/favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="http://angularjs.org/favicon.ico" type="image/x-icon">
-    <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
   <!-- build:css styles/components.min.css -->
   <!-- bower:css -->
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.css"/>
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
   <!-- endbower -->
   <!-- endbuild -->
 
@@ -46,21 +47,61 @@
 
 <body ontouchstart ng-controller="MainCtrl">
 
-  <div class="site-wrapper">
-    <div class="site-wrapper-inner">
-      <div class="cover-container">
-        <div class="masthead clearfix">
-          <div class="inner" ng-include="'views/partials/header.html'"></div>
+    <div class="container-fluid">
+        <div class="row header-landing">
+            <div class="col-xs-2">
+                <img src="images/dhifair.png" width="164">
+            </div>
         </div>
-        <div class="inner cover">
-          <div class="inner" ng-view></div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="h2 center-block color-grey clear main-point">
+                    Javascript Unit Testing as a Service.
+                </div>
+            </div>
         </div>
-        <div class="mastfoot">
-          <div class="inner" ng-include="'views/partials/footer.html'"></div>
-        </div>
-      </div>
     </div>
-  </div>
+    <div class="container">
+        <div class="row explanation">
+            <div class="h2 gap col-xs-12">
+                <strong class="h1 color-grey">It should</strong> let me make assertions instead of writing complete suites of unit tests.
+            </div>
+            <div class="h2 gap col-xs-12">
+                <strong class="h1 color-grey">It should</strong> make my tests be smarter - than just being text.
+            </div>
+            <div class="h2 gap col-xs-12">
+                <strong class="h1 color-grey">It should</strong> make my tests do more, while I write less.
+            </div>
+            <div class="h2 gap col-xs-12">
+                <strong class="h1 color-grey">It should</strong> understand the connections between my tests.
+            </div>
+
+            <div class="h2 gap col-xs-12">
+                <strong class="h1 color-grey">It should</strong> be the first step to singularity! :)
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row subscribe">
+            <div id="mc_embed_signup">
+                <form action="//dhi.us8.list-manage.com/subscribe/post?u=6da581032aa9c1eda68d2f26d&amp;id=8c1162e527" method="post"
+                      id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+                    <div style="position: absolute; left: -5000px;"><input type="text" name="b_6da581032aa9c1eda68d2f26d_8c1162e527"
+                                                                           tabindex="-1" value=""></div>
+                    <input class="email_signup" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"
+                                     placeholder="your email here" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                           class="button">
+
+                </form>
+            </div>
+        </div>
+
+    </div>
   <!-- build:js scripts/components.min.js -->
   <!-- bower:js -->
   <script type="text/javascript" src="bower_components/angular/angular.js"></script>
