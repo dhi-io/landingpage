@@ -38,94 +38,10 @@ body {
   background-size: cover;
 }
 
-
-h1.jumboview{
-    font-size: 100px;
-}
-
-.page1{
-    background: #140e33; /* Old browsers */
-    background: -moz-linear-gradient(top,  #140e33 0%, #211b40 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#140e33), color-stop(100%,#211b40)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #140e33 0%,#211b40 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #140e33 0%,#211b40 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #140e33 0%,#211b40 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #140e33 0%,#211b40 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#140e33', endColorstr='#211b40',GradientType=0 ); /* IE6-9 */
-
-}
-
-.page2{
-    background: #211b40; /* Old browsers */
-    background: -moz-linear-gradient(top,  #211b40 0%, #722020 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#211b40), color-stop(100%,#722020)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #211b40 0%,#722020 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #211b40 0%,#722020 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #211b40 0%,#722020 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #211b40 0%,#722020 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211b40', endColorstr='#722020',GradientType=0 ); /* IE6-9 */
-}
 body {
   color: #fff;
   text-align: center;
   box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-}
-
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
-  display: table;
-  width: 100%;
-  height: 100%; /* For at least Firefox */
-  min-height: 100%;
-}
-.site-wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
-}
-.cover-container {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Padding for spacing */
-.inner {
-  padding: 30px;
-}
-
-
-/*
- * Header
- */
-.masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.masthead-nav > li {
-  display: inline-block;
-}
-.masthead-nav > li + li {
-  margin-left: 20px;
-}
-.masthead-nav > li > a {
-  padding-left: 0;
-  padding-right: 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
-  border-bottom: 2px solid transparent;
-}
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: rgba(255,255,255,.25);
-}
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -138,31 +54,10 @@ body {
 }
 
 
-/*
- * Cover
- */
-
-.cover {
-  padding: 0 20px;
-}
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
 .color-grey{
   color: #E0E0E0;
 }
 
-
-/*
- * Footer
- */
-
-.mastfoot {
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
-}
 
 #mc_embed_signup form#mc-embedded-subscribe-form{
     font-size: 30px;
@@ -171,66 +66,22 @@ body {
 }
 
 
-/*
- * Affix and center
- */
-
-@media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
-    .header-landing{
-        margin-top: 15px;
-    }
-}
-
-
-
-@media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 900px;
-  }
-
-    .header-landing{
-        margin-top: 20px;
-    }
-
-
-}
 
 .main-point{
     margin-bottom: 30px;
 }
 
 .gap{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .explanation{
-    margin-top: 50px;
+    margin-top: 10px;
     text-align: left;
 }
 
 .subscribe{
-    margin-top : 50px;
+    margin-top: 20px;
     border: 1px solid #cccccc;
     padding: 20px;
 }
@@ -251,22 +102,6 @@ body {
     padding: 5px 10px;
     color: #333;
 }
-
-/*
-#mc_embed_signup .email_signup {
-    box-sizing: border-box;
-    background: transparent;
-    border: none;
-    display: inline-block;
-    border-bottom: 1px solid #ffffff;
-    padding-bottom: 15px;
-
-}
-
-#mc_embed_signup .email_signup:focus {
-    border-bottom: 2px solid #ffffff;
-
-}*/
 
 #mc_embed_signup input.button {
     display: inline-block;
@@ -290,4 +125,26 @@ body {
 
 :-ms-input-placeholder {
     color: #cccccc;
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+    .header-landing{
+        margin-top: 15px;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+
+    .header-landing{
+        margin-top: 20px;
+    }
+
+
 }
