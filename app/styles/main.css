@@ -31,7 +31,7 @@ body {
 }
 
 body { 
-  background: url(../images/bgcol.jpg) no-repeat center center fixed;
+  background: url(../images/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -53,9 +53,18 @@ body {
   }
 }
 
+div.foreground{
+    background-color: rgba(2,162,160,0.9);
+    height: 100%;
+}
+
 
 .color-grey{
   color: #E0E0E0;
+}
+
+.color-yellow{
+    color : #dfff89;
 }
 
 
